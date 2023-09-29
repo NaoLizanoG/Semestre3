@@ -4,6 +4,7 @@ public class Auto {
     String color="";
     int puertas=0;
 
+    //Se declaran los otros modleos usados dentro del modelo principal Auto
     Motor motor;
     Duenio duenio;
 }
