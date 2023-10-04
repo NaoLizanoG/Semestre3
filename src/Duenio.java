@@ -1,10 +1,10 @@
 //Se debe evitar usar caracteres especiales como la ñ
 public class Duenio {
-    String nombre="";
-    int edad=0;
-    String domicilio="";
-    String cedula="";
-    char genero;
+    private String nombre="";
+    private int edad=0;
+    private String domicilio="";
+    private String cedula="";
+    private char genero;
 
     //se crea un Mètodo, este se usarà para definiri un comportamiento
     public String capacidadManejar(){

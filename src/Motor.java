@@ -1,7 +1,7 @@
-public class Motor {
-    double cilindraje=0;
+public class  Motor {
+   private double cilindraje=0;
 
-    String combustible="";
+    private String combustible="";
     //se crea un Mètodo, este se usarà para definiri un comportamiento
  public double caballosFuerza (){
 double cf=0;
@@ -13,9 +13,19 @@ if(combustible.equals("Disel")){
 return  cf;
 }
 
+    public double getCilindraje() {
+        return cilindraje;
+    }
 
+    public void setCilindraje(double cilindraje) {
+        this.cilindraje = cilindraje;
+    }
 
+    public String getCombustible() {
+        return combustible;
+    }
 
-
-
- }
+    public void setCombustible(String combustible) {
+        this.combustible = combustible;
+    }
+}
